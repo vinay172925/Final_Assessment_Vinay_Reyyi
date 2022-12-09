@@ -1,0 +1,44 @@
+{
+"valid":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"123456",
+"CATEGORYNAME":"abcksajdfhkdjaf",
+"img1":"C:\\Users\\VR69846\\Downloads\\img1.png"
+},
+"blankname":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"123456",
+"CATEGORYNAME":" ",
+"img1":"C:\\Users\\VR69846\\Downloads\\img1.png"
+},
+"numbers":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"123456",
+"CATEGORYNAME":"123456789",
+"img1":"C:\\Users\\VR69846\\Downloads\\img1.png"
+},
+"withoutimage":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"123456",
+"CATEGORYNAME":"123456789",
+"img1":" "
+},
+"withoutNameAndimage":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":" ",
+"CATEGORYNAME":" ",
+"img1":" "
+},
+"specials":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"^%$^",
+"CATEGORYNAME":"C:\\Users\\VR69846\\Downloads\\img1.png",
+"img1":" "
+},
+"charandspec":{
+"USERNAME":"admin@gmail.com",
+"PASSWORD":"hello^%$^",
+"CATEGORYNAME":"C:\\Users\\VR69846\\Downloads\\img1.png",
+"img1":" "
+}
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add_copoun_xlogist]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="xlogist_testcase(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://xlogist.pisystindia.com/mainhub/login"/>
+    <classes>
+      <class name="TestCase.Xlogist_testcase">
+        <methods>
+          <include name="test_validData"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="stopReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- TestCase.Xlogist_testcase -->
+    </classes>
+  </test> <!-- xlogist_testcase(failed) -->
+</suite> <!-- Failed suite [Add_copoun_xlogist] -->
