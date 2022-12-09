@@ -1,0 +1,31 @@
+create database vinay;
+
+show databases;
+
+use vinay;
+
+create table employee(id integer,name varchar(20),degination varchar(10),salary integer);
+
+desc employee;
+
+insert into employee values(101,"vinay","tester",28000);
+insert into employee values(102,"akhil","tester",30000);
+insert into employee values(103,"vamsi","developer",27000);
+insert into employee values(104,"sagar","java",30000);
+
+
+select * from employee;
+select name from employee where id=101;
+
+
+update employee set id=1 where id=101;
+update employee set id=2 where id=102;
+update employee set id=3 where id=103;
+update employee set id=4 where id=104;
+
+
+delete from employee where id=1;
+
+select id from employee where id>=2 and id<=5;
+
+select * from employee order by salary asc;
